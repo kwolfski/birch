@@ -105,6 +105,7 @@ html {
 
 body{
   padding-top: 3em;
+  font-family: helvetica, arial, sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -151,7 +152,7 @@ img {
 }
 
 .main-nav a:hover{
-  color: yellow;
+  color: #e3e3e3;
 }
 
 .page-header .main-nav {
@@ -166,7 +167,11 @@ img {
   background: #003319;
   text-align: center;
   color: #fff;
-  text-transform: uppercase;
+  line-height: 1.15em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .email-list submit {
