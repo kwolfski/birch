@@ -265,14 +265,23 @@ img {
   right: 0;
   bottom: 20%;
   transform: translate(-50%, -50%);
-  margin: 0;
-  width: auto;
-  text-align: left;
+  color: #000;
+}
+
+.project-thumb h4 {
+  position: absolute;
+  left: 17%;
+  top: 5%;
+  transform: translate(-50%, -50%);
   color: #000;
 }
 
 .project-thumb:hover h3 {
   color: #fff;
+}
+
+.project-thumb:hover h4 {
+  color: #e3e3e3;
 }
 
 .page-footer {
