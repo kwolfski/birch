@@ -145,15 +145,32 @@ img {
   text-transform: uppercase;
 }
 
-.page-header a{
-  text-decoration: none;
+.main-nav a{
   color: #fff;
+  text-decoration: none;
+}
+
+.main-nav a:hover{
+  color: yellow;
 }
 
 .page-header .main-nav {
   position: fixed;
   top: 1em;
   right: 1em;
+}
+
+.email-list {
+  position: fixed;
+  padding: 20px;
+  background: #003319;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.email-list submit {
+  padding: 10px;
 }
 
 .page-section {
@@ -163,6 +180,13 @@ img {
 
 .page-section h2 {
   color: #003319;
+  font-size: 150%;
+}
+
+#cabins h2{
+  background: #003319;
+  color: white;
+  padding: 1em;
   font-size: 150%;
 }
 
@@ -214,6 +238,12 @@ img {
   float: left;
   background-color: hsla(0, 100%, 100%, 0.5);
   border: 1px solid white;
+  padding: 20px;
+}
+
+.project-thumb p {
+  color: black;
+  margin: 10px;
 }
 
 .project-thumb:hover {
