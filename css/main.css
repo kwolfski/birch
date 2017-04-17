@@ -117,7 +117,7 @@ img {
 }
 
 .page-header {
-  background: #000;
+  background: #003319;
   color: white;
   padding: 1em;
   position: fixed;
@@ -128,7 +128,7 @@ img {
 
 .page-header h1 {
   margin: 0;
-  font-size: 150%;
+  font-size: 200%;
 }
 
 .page-header ul {
@@ -141,6 +141,8 @@ img {
 .page-header li {
   display: inline-block;
   padding: .625em;
+  font-size: 125%;
+  text-transform: uppercase;
 }
 
 .page-header a{
@@ -149,7 +151,7 @@ img {
 }
 
 .page-header .main-nav {
-  position: absolute;
+  position: fixed;
   top: 1em;
   right: 1em;
 }
@@ -159,13 +161,9 @@ img {
   border-bottom: 1px solid #ddd;
 }
 
-.button {
-  border: 0.125em solid #000;
-  padding: 0.5em  1em;
-  font-size: 1.25em;
-  text-decoration: none;
-  color: #000;
-  display: inline-block;
+.page-section h2 {
+  color: #003319;
+  font-size: 150%;
 }
 
 .button:hover {
@@ -214,12 +212,12 @@ img {
   position: relative;
   width: 50%;
   float: left;
-  background-color: hsla(0, 100%, 100%, 0.75);
+  background-color: hsla(0, 100%, 100%, 0.5);
   border: 1px solid white;
 }
 
 .project-thumb:hover {
-  background-color: hsla(0, 0%, 0%, 0.5);
+  background-color: hsla(0, 0%, 0%, 0);
 }
 
 .project-thumb img {
@@ -229,12 +227,12 @@ img {
 
 .project-thumb h3 {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  right: 0;
+  bottom: 20%;
   transform: translate(-50%, -50%);
   margin: 0;
   width: auto;
-  text-align: center;
+  text-align: left;
   color: #000;
 }
 
